@@ -3,16 +3,13 @@
 <template>
 
   <div>
-    <v-toolbar>
-      <v-hover
-        v-slot="{ hover }"
-        open-delay="200"
-      >
+    <v-toolbar color="red darken-4">
+      <v-hover v-slot="{ hover }">
         <v-card
           :elevation="hover ? 16 : 2"
           :class="{ 'on-hover': hover }"
         >
-          <v-icon>mdi-account</v-icon>
+          <v-icon color="red darken-4">mdi-account</v-icon>
         </v-card>
       </v-hover>
 
