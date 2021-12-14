@@ -1,12 +1,13 @@
 <template>
-  <v-content class="black">
+  <v-content class="black ">
 
     <div class="card">
+
       <v-card
         class="card
         d-flex
         align-content-end
-        flex-wrap"
+        flex-wrap ml-5"
         width="
         350px"
         height="200px"
@@ -14,7 +15,9 @@
       >
 
       </v-card>
+
     </div>
+
   </v-content>
 </template>
 
