@@ -1,7 +1,6 @@
 
 
 <template>
-
   <div>
     <v-toolbar color="red darken-4">
       <v-hover v-slot="{ hover }">
@@ -12,8 +11,11 @@
           <v-icon color="red darken-4">mdi-account</v-icon>
         </v-card>
       </v-hover>
-
+      <div>
+        
+      </div>
     </v-toolbar>
+    
   </div>
 </template>
 

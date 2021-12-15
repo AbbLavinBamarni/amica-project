@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <Toolbar />
-    <Main />
+    <Main class="main" />
   </v-app>
 </template>
 
@@ -21,3 +21,8 @@ export default {
   }),
 };
 </script>
+<style>
+.main {
+  margin-top: 0px;
+}
+</style>
