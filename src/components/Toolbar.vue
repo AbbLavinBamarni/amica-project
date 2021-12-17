@@ -1,19 +1,10 @@
 
 
 <template>
-  <div>
+  <div class="rubtik">
     <v-toolbar color="red darken-4">
-      <v-hover v-slot="{ hover }">
-        <v-card
-          :elevation="hover ? 16 : 2"
-          :class="{ 'on-hover': hover }"
-        >
-          <v-icon color="red darken-4">mdi-account</v-icon>
-        </v-card>
-      </v-hover>
-      <div>
-        
-      </div>
+        <p>klicka vilken stremingtjänst du kollar på mest!</p>
+    
     </v-toolbar>
     
   </div>
@@ -26,4 +17,7 @@ export default {
 </script>
 
 <style>
+.rubtik{
+   text-align: center;
+}
 </style>

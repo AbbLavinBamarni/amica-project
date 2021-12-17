@@ -25,7 +25,7 @@
                   v-bind="attrs"
                   v-on="on"
                 >
-                  genre
+                  klicka
                 </v-btn>
               </template>
               <v-card>
@@ -92,7 +92,7 @@
 </template>
 <script>
 export default {
-    name: 'card',
+    name: 'Card',
     props: {
         img: String
     },

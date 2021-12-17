@@ -21,10 +21,11 @@
       />
     </div>
     <div class="white">
-      <div>
+      <div class="creators">
         <h2>CREATORS:</h2><p>lorrepro</p><p>lavinpro</p><p>isacpro</p>
       </div>
       <div class="phoneNumber">
+      
         <a href="tel:0723335062">swish om du king---> 072-333-50-62</a>
       </div>
     </div>
@@ -35,7 +36,7 @@ import Card from "./Card";
 
 export default {
   components: {
-    Card,
+    Card, Audio,
   },
   data() {
     return {
@@ -59,7 +60,10 @@ export default {
   height: 200px;
 }
 .phoneNumber{
-  display: flex;
-  align-content: center;
+  text-align: center;
+}
+
+.creators{
+  margin-left:50px;
 }
 </style>
