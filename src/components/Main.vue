@@ -2,31 +2,45 @@
   <v-content class="black">
     <div class="gridContainer">
       <Card
-        :img="'https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Netflix_icon.svg/611px-Netflix_icon.svg.png'"
+        :img="'../assets/Netfli.png'"
       />
       <Card
-        :img="'https://store-images.s-microsoft.com/image/apps.1088.14430220018100179.56fbea89-a097-47a3-9258-2a653b16c1e1.877f32d2-7452-4682-97d6-02b18d4627c5'"
+        :img="'HBO.jpg'"
       />
       <Card
-        :img="'https://www.boldscandinavia.com/wp-content/uploads/2019/05/cmore-2.jpg'"
+        :img="'Netfli.png'"
       />
       <Card
-        :img="'https://cdn.vox-cdn.com/thumbor/SlOubMprG_kt-04eJXmiDNEF7Hs=/31x0:736x470/1200x800/filters:focal(31x0:736x470)/cdn.vox-cdn.com/assets/1327686/hbonordic.jpg'"
+        :img="'disney.webp'"
       />
       <Card
-        :img="'https://www.newsmax.com/CMSPages/GetFile.aspx?guid=8f039070-ce08-4af3-9eff-b820e901c83a&SiteName=Newsmax'"
+        :img="'discovery.jpg'"
       />
       <Card
-        :img="'https://press.discoveryplus.com/wp-content/uploads/2021/01/discovery-plus-logo-vertical-white-wordmark.jpg'"
+        :img="'cmore.jpg'"
+      />
+      <Card
+        :img="'viaply.pnggit'"
       />
     </div>
     <div class="white">
       <div class="creators">
-        <h2>CREATORS:</h2><p>lorrepro</p><p>lavinpro</p><p>isacpro</p>
+        <h2>CREATORS:</h2><p>lorrepro</p><p>lavinpro</p><p>isakpro</p>
       </div>
-      <div class="phoneNumber">
       
+      <div class="centerPart">
+        <div >
+        <a @click="Redirect" href="https://accounts.snapchat.com/accounts/snapcodes">
+            <img
+                max-height="50px"
+                max-width="50px" 
+                src='../assets/snapchat.jpg' 
+            />
+        </a>
+        </div>
+        <div class="phoneNumber">
         <a href="tel:0723335062">swish om du king---> 072-333-50-62</a>
+        </div>
       </div>
     </div>
   </v-content>
@@ -36,7 +50,7 @@ import Card from "./Card";
 
 export default {
   components: {
-    Card, Audio,
+    Card,
   },
   data() {
     return {
@@ -66,4 +80,9 @@ export default {
 .creators{
   margin-left:50px;
 }
+.centerPart{
+  text-align: center;
+  margin-top: 0px;
+}
+
 </style>

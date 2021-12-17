@@ -10,7 +10,7 @@
         height="200px"
         color="red darken-4"
       >
-      <v-img :src=img width="350px" height="350px" ></v-img>
+      <v-img :src="require(`@/assets/${img}`)" width="350px" height="350px" ></v-img>
 
        <v-row justify="center">
             <v-dialog
