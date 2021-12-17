@@ -1,12 +1,11 @@
 
 
 <template>
-  <div class="rubtik">
+  <div>
     <v-toolbar color="red darken-4">
-        <p>klicka vilken stremingtjänst du kollar på mest!</p>
-    
+lök
     </v-toolbar>
-    
+
   </div>
 </template>
 
@@ -17,7 +16,4 @@ export default {
 </script>
 
 <style>
-.rubtik{
-   text-align: center;
-}
 </style>

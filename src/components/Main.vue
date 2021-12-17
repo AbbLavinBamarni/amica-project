@@ -20,7 +20,7 @@
         :img="'cmore.jpg'"
       />
       <Card
-        :img="'viaply.pnggit'"
+        :img="'viaply.png'"
       />
     </div>
     <div class="white">
@@ -43,20 +43,21 @@
         </div>
       </div>
     </div>
+
   </v-content>
 </template>
 <script>
-import Card from "./Card";
+import Card from "./Card"
 
 export default {
   components: {
     Card,
   },
-  data() {
+  data () {
     return {
       dialogm1: "",
       dialog: false,
-    };
+    }
   },
 };
 </script>
