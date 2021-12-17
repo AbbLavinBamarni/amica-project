@@ -1,48 +1,37 @@
 <template>
   <v-content class="black">
     <div class="gridContainer">
-      <Card
-        :img="'https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Netflix_icon.svg/611px-Netflix_icon.svg.png'"
-      />
-      <Card
-        :img="'https://store-images.s-microsoft.com/image/apps.1088.14430220018100179.56fbea89-a097-47a3-9258-2a653b16c1e1.877f32d2-7452-4682-97d6-02b18d4627c5'"
-      />
-      <Card
-        :img="'https://www.boldscandinavia.com/wp-content/uploads/2019/05/cmore-2.jpg'"
-      />
-      <Card
-        :img="'https://cdn.vox-cdn.com/thumbor/SlOubMprG_kt-04eJXmiDNEF7Hs=/31x0:736x470/1200x800/filters:focal(31x0:736x470)/cdn.vox-cdn.com/assets/1327686/hbonordic.jpg'"
-      />
-      <Card
-        :img="'https://www.newsmax.com/CMSPages/GetFile.aspx?guid=8f039070-ce08-4af3-9eff-b820e901c83a&SiteName=Newsmax'"
-      />
-      <Card
-        :img="'https://press.discoveryplus.com/wp-content/uploads/2021/01/discovery-plus-logo-vertical-white-wordmark.jpg'"
-      />
+
+      <Card :img="'https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Netflix_icon.svg/611px-Netflix_icon.svg.png'" />
+      <Card :img="'https://store-images.s-microsoft.com/image/apps.1088.14430220018100179.56fbea89-a097-47a3-9258-2a653b16c1e1.877f32d2-7452-4682-97d6-02b18d4627c5'" />
+      <Card :img="'https://www.boldscandinavia.com/wp-content/uploads/2019/05/cmore-2.jpg'" />
+      <Card :img="'https://cdn.vox-cdn.com/thumbor/SlOubMprG_kt-04eJXmiDNEF7Hs=/31x0:736x470/1200x800/filters:focal(31x0:736x470)/cdn.vox-cdn.com/assets/1327686/hbonordic.jpg'" />
+      <Card :img="'https://www.newsmax.com/CMSPages/GetFile.aspx?guid=8f039070-ce08-4af3-9eff-b820e901c83a&SiteName=Newsmax'" />
+      <Card :img="'https://press.discoveryplus.com/wp-content/uploads/2021/01/discovery-plus-logo-vertical-white-wordmark.jpg'" />
     </div>
     <div class="white">
       <div class="creators">
-        <h2>CREATORS:</h2><p>lorrepro</p><p>lavinpro</p><p>isacpro</p>
+
       </div>
       <div class="phoneNumber">
-      
-        <a href="tel:0723335062">swish om du king---> 072-333-50-62</a>
+
       </div>
     </div>
+
   </v-content>
 </template>
 <script>
-import Card from "./Card";
+import Card from "./Card"
 
 export default {
   components: {
-    Card, Audio,
+    Card,
   },
-  data() {
+  data () {
     return {
       dialogm1: "",
       dialog: false,
-    };
+    }
   },
 };
 </script>
@@ -54,16 +43,5 @@ export default {
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 20px;
   grid-auto-rows: 400px;
-}
-.white{
-  background-color: aliceblue;
-  height: 200px;
-}
-.phoneNumber{
-  text-align: center;
-}
-
-.creators{
-  margin-left:50px;
 }
 </style>
